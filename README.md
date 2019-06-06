@@ -3,9 +3,9 @@
 This code uses a modified Monte Carlo Tree Search, as well as Upper Confidence Trees (similar to AlphaGo). The algorithm branches off from the current game state into the different move possibilities to find out which move yields highest chance of winning. In order to account for time, the algorithm cuts short right before the 3 second mark and chooses the best possibility from the existing tree.
 
 ## How to use
-Source code is found in Connect4/Strategy  
+Source code is found in `Connect4/Strategy`  
 Compile with Visual Studio to make a .dll  
-Run UI.sln in Connect4/UI
+Run UI.sln in `Connect4/UI`
 
 ## Implementation
 Our task was to modify 2 functions, getPoint and clearPoint, so that other programs may use them. 
